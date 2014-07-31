@@ -4,15 +4,19 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass";
-@import "compass/reset";
 
 $gallery-width: 45%;
 $gallery-height: 35%;
 
-#gallery {
+.gallery {
     position: relative;
     margin: 0;
     padding: 0;
 
-    li { display: block; }
+    img { 
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
 }
+
